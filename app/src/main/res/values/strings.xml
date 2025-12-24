@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GreenGuardian</string>
+    <string-array name="crop_types">
+        <item>Tomato</item>
+        <item>Cucumber</item>
+        <item>Peppers</item>
+        <item>Carrots</item>
+        <item>Onions</item>
+        <item>Lettuce</item>
+        <item>Cabbage</item>
+        <item>Cauliflower</item>
+        <item>Broccoli</item>
+        <item>Eggplant</item>
+        <item>Zucchini</item>
+        <item>Potatoes</item>
+        <item>Sweet Corn</item>
+        <item>Green Beans</item>
+        <item>Beets</item>
+        <!-- Add more crop types as needed -->
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

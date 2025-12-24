@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddCropActivity"
+    android:background="@drawable/bc_add_crop">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a New Crop"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="16dp" />
+
+    <!-- Crop Name -->
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Crop Name"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <!-- Crop Size -->
+    <EditText
+        android:id="@+id/sizeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Size (in square meters)"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:background="@android:drawable/editbox_background" />
+
+    <!-- Planting Date (Using DatePicker) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Planting Date"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:textStyle="bold" />
+
+    <DatePicker
+        android:id="@+id/plantingDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+         />
+
+    <!-- Crop Type (Spinner) -->
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/spinner_background" />
+
+    <!-- Add Crop Button (with larger touch target) -->
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Add Crop"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:backgroundTint="#61B839"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="70dp"
+        android:layout_height="57dp"
+        android:text="back"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:backgroundTint="#8FB9F1"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="left"/>
+
+</LinearLayout>
+

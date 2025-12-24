@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomePage"
+    android:background="@drawable/bcwelcome">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Start growing smarter with GreenGuardian"
+        android:textColor="#F8F8F8"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/log_in_btn"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#7ac050"
+        android:text="Log In"
+        android:textColor="#FFFFFF"
+
+
+        />
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F3F3F3"
+        android:text="Sign Up"
+        android:textColor="#7ac050" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetAlarmFragment"
+    android:background="@drawable/bc_notifications">
+
+    <TextView
+        android:id="@+id/selectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="08 : 45 PM"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="300dp"
+        android:textSize="46dp" />
+    <EditText
+        android:id="@+id/reminderTitleEditText"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:hint="Enter reminder title"
+        android:layout_gravity="center"
+        android:layout_marginTop="135dp"/>
+    <Button
+        android:id="@+id/selectedTimeBtn"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+
+        android:layout_gravity="center"
+        android:backgroundTint="#7ABF50"
+        android:text="select time" />
+
+
+    <Button
+        android:id="@+id/selectedAlarmBtn"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#7ABF50"
+        android:text="select alarm" />
+
+    <Button
+        android:id="@+id/cancelAlarmBtn"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#8FB9F1"
+        android:text="cancel alarm" />
+
+</LinearLayout>
